@@ -1,3 +1,8 @@
-The files in this directory are for the PASSWORD GENERATOR.
+This website is my portfolio page created using HTML and CSS.
 
-screenshot of the password generator is here: \Module-3-PW-Generator\PW-Generator-ScreenShot.PNG
+The contents of this website are 
+  *about me
+  *work
+  *contact 
+  *resume
+

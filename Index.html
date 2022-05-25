@@ -1,34 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="./Develop/style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" onclick="getPassword()" class="btn">Generate Password</button>
-        </div>
-      </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donghoh's Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/profile.jpg">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+  <header class="main-header">
+    <h1 id="portfolio"><a href="#portfolio">DONGHOH'S PORTFOLIO</a><span><img id="profile"
+          src="./assets/images/profile.jpg" width="180 px" alt="Donghoh Avatar"></span></h1>
+    <nav class="nav main-nav">
+      <ul>
+        <li><a href="#About Me">About Me</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section" id="About Me">
+    <h2 class="section-title">ABOUT ME</h2>
+    <div class="indent">
+      <h3 class="section-title2">Hi, I'm Donghoh.</h3>
+      <p>
+        I am a California based Graphic and UI/UX Designer and future Developer.
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
     </div>
-    <script src="./Develop/script2.js"></script>
-  </body>
+  </section>
+
+
+  <section class="section" id="Work">
+    <h2 class="section-title">WORK</h2>
+
+    <div class="primary-projects">
+      <section class="project1">
+        <a href="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/"><img class=project-image
+            src="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1642533428145-5P86DP6EB5BTCP17NJCH/st3.jpg?format=2500wg"
+            width="932px" alt="Project 1"></a>
+        <h3 class="section-title3"><a href="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/">Starlite +
+            Flip Chip Opto</a></h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua.
+        </p>
+      </section>
+    </div>
+
+    <div class="secondary-projects">
+        <section class="project">
+          <a href="https://donghohdesigns.squarespace.com/typographyxtopography/"><img class=project-image
+              src="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1415939761974-IJ89D2IMUK82T270J6V5/Levels+Thumbnail.jpg?format=1000w"
+              width="352px" alt="Project 2"></a>
+          <h3 class="section-title3"><a href="https://donghohdesigns.squarespace.com/typographyxtopography/">Levels:
+              TYPOGRAPHY x TOPOGRAPHY</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua.
+          </p>
+        </section>
+
+        <section class="project">
+          <a href="https://donghohdesigns.squarespace.com/the-skyboxx-recording-studio/"><img class=project-image
+              src="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1557431867842-H4R97KPXDVQH76ECFV8Z/Skyboxx_Logo_v13_1_chosen-4-cropped.jpg?format=1000w"
+              width="352px" alt="Project 3"></a>
+          <h3 class="section-title3"><a href="https://donghohdesigns.squarespace.com/the-skyboxx-recording-studio/">The
+              Skyboxx (Recording Studio)</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua.
+          </p>
+        </section>
+
+        <section class="project">
+          <a href="https://donghohdesigns.squarespace.com/studio-showcase-events/"><img class=project-image
+              src="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1555959415279-E2H7V7HZAJTU54JGDRQO/MicShowc_Flyer_TooShort_1600x2000_v15.jpg?format=1000w"
+              width="352px" alt="Project 4"></a>
+          <h3 class="section-title3"><a href="https://donghohdesigns.squarespace.com/studio-showcase-events/">Studio
+              Showcase Events</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua.
+          </p>
+        </section>
+      </section>
+    </div>
+
+  <section class="section" id="Contact">
+    <h2 class="section-title">CONTACT</h2>
+    <div class="indent">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="section" id="Resume">
+    <h2 class="section-title">RESUME</h2>
+    <div class="indent">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    </p>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <h3 class="footer-header"><a href="#portfolio">Donghoh's Portfolio</a></h3>
+      <ul class="footer-nav">
+        <li class="footer-nav2"><a href="https://www.behance.net/donghohnation/">Behance</a></li>
+        <li class="footer-nav2"><a href="https://instagram.com/donghohnation">Social Media</a></li>
+        <li class="footer-nav2"><a href="#Contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
 </html>
